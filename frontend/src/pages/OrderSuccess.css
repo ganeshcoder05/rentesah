@@ -1,0 +1,112 @@
+.order-success-page {
+  padding: 64px 0;
+  min-height: calc(100vh - 64px);
+  display: flex;
+  align-items: center;
+}
+
+.success-card {
+  max-width: 580px;
+  margin: 0 auto;
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: 48px 40px;
+  text-align: center;
+  border: 1px solid var(--gray-4);
+  box-shadow: var(--shadow-lg);
+}
+
+.success-icon {
+  font-size: 64px;
+  margin-bottom: 20px;
+  animation: popIn 0.4s ease;
+}
+
+@keyframes popIn {
+  0% { transform: scale(0); opacity: 0; }
+  80% { transform: scale(1.15); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.success-card h1 {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--dark);
+  margin-bottom: 12px;
+}
+
+.success-subtitle {
+  font-size: 14px;
+  color: var(--gray-2);
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.order-details-box {
+  background: var(--gray-4);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.order-id-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  padding: 8px 0;
+  border-bottom: 1px solid #e0e0ec;
+  color: var(--gray-1);
+}
+
+.order-id-row:last-child { border-bottom: none; }
+
+.order-id {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--dark);
+  letter-spacing: 1px;
+}
+
+.order-total {
+  font-family: var(--font-display);
+  font-weight: 800;
+  color: var(--primary);
+  font-size: 16px;
+}
+
+.success-items {
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+.success-items h3 {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--dark);
+}
+
+.si-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--gray-4);
+  gap: 10px;
+}
+
+.si-row:last-child { border-bottom: none; }
+.si-row span:first-child { flex: 1; color: var(--gray-1); }
+.si-row span:last-child { font-weight: 700; color: var(--primary); }
+
+.success-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
