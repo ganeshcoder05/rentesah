@@ -10,7 +10,7 @@ const app = express();
 // Middleware
 app.use(cors({
   origin: ['http://localhost:3000',
-    'iridescent-axolotl-6513a4.netlify.app'
+    'https://iridescent-axolotl-6513a4.netlify.app'
   ],
   credentials: true
 }));
