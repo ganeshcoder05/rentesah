@@ -73,7 +73,7 @@ const Home = () => {
             <div className="hero-stats">
               <div className="stat"><span>500+</span><p>Products</p></div>
               <div className="stat"><span>10,000+</span><p>Happy Renters</p></div>
-              <div className="stat"><span>3 Cities</span><p>& Growing</p></div>
+              <div className="stat"><span>4 Cities</span><p>& Growing</p></div>
             </div>
           </div>
           <div className="hero-visual">

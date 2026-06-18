@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://rentesah.onrender.com/api',
   headers: { 'Content-Type': 'application/json' }
 });
 
