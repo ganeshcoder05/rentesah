@@ -90,6 +90,7 @@
 
 .price-range input {
   flex: 1;
+  min-width: 0;
   padding: 8px 10px;
   border: 2px solid var(--gray-4);
   border-radius: 8px;
